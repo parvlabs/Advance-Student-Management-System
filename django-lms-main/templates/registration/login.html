@@ -1,14 +1,19 @@
 {% extends 'registration/registration_base.html' %}
 {% load i18n %}
-{% block title %}{% trans 'Dj Learning Management System - Login' %}{% endblock title %}
+{% block title %}{% trans 'Gautam Buddha University LMS - Login' %}{% endblock title %}
 {% load crispy_forms_tags %}
 {% block content %}
 
-<div class="col-md-4 mx-auto mt-5">
-  <div class="card">
-    <div class="form-title">
-      <i class="fas fa-lock me-2"></i>
-      {% trans 'Sign in' %}
+<div class="col-md-5 col-lg-4 mx-auto mt-5">
+  <div class="text-center mb-4">
+    <h4 class="fw-bold mb-1" style="color: #1e3a8a; letter-spacing: 0.5px;">GAUTAM BUDDHA UNIVERSITY</h4>
+    <p class="text-muted small mb-2">Student & Faculty Academic Portal • Session 2026-2027</p>
+    <span class="badge bg-dark text-warning border px-2 py-1" style="font-size: 0.72rem;"><i class="fab fa-github me-1"></i> Developed by parvlabs</span>
+  </div>
+  <div class="card shadow-sm border-0">
+    <div class="form-title" style="background: #1e3a8a; color: white;">
+      <i class="fas fa-user-lock me-2"></i>
+      {% trans 'GBU Portal Sign In' %}
     </div>
     <div class="card-body">
         <form action="" method="POST" id="login-form">{% csrf_token %}

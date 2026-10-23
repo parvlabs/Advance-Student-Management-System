@@ -2,84 +2,128 @@
 
 ![Advance Student Management System Banner](assets/banner.png)
 
-# 🎓 Advance Student Management & Learning System
+# 🎓 Gautam Buddha University (GBU) • Advance Student Management & Learning System
 
+[![Maintained by parvlabs](https://img.shields.io/badge/ENGINEERED%20BY-PARVLABS-FF5722?style=for-the-badge&logo=github&logoColor=white)](https://github.com/parvlabs)
+[![Institution: Gautam Buddha University](https://img.shields.io/badge/Institution-Gautam%20Buddha%20University-1E3A8A?style=for-the-badge&logo=google-scholar&logoColor=white)](https://www.gbu.ac.in)
 [![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Django Version](https://img.shields.io/badge/Django-4.0.8-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
-[![Bootstrap 5](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
-[![Status: Active](https://img.shields.io/badge/Status-Maintained-success?style=for-the-badge)]()
 
-**A comprehensive, production-ready Learning Management System (LMS) and Student Information System (SIS) built with Django, featuring multi-role access control, dynamic grading algorithms, automated assessment engines, and PDF reporting.**
+**An enterprise-grade, institutional Learning Management System (LMS) and Student Information System (SIS) engineered for Gautam Buddha University (GBU), Greater Noida, with multi-role access control, dynamic GPA/CGPA grading engines, curriculum management, and academic calendar integration.**
 
-[Key Features](#-key-features) • [Quickstart Guide](#-quickstart-guide) • [Architecture](#-architecture--tech-stack) • [Security & RBAC](#-security--access-control) • [Contributing](#-contributing)
+**Full Engineering & Architecture Credits:** [**parvlabs**](https://github.com/parvlabs)
+
+[GBU Academic Calendar](#-official-gbu-academic-calendar-2026-2027) • [Constituent Schools](#-gbu-constituent-schools--programs) • [Features](#-key-features) • [Quickstart Guide](#-quickstart-guide) • [Parvlabs Credits](#-credits--acknowledgments)
 
 ---
 
 </div>
 
-## 📌 Overview
+## 🏛 About Gautam Buddha University (GBU)
 
-The **Advance Student Management & Learning System** is an end-to-end institutional platform engineered to streamline educational administration. It bridges students, faculty, department heads, and parents into a unified portal featuring:
+**Gautam Buddha University (GBU)**, located in Greater Noida, Gautam Budh Nagar (Uttar Pradesh), was established under the Uttar Pradesh Gautam Buddha University Act 2002 (U.P. Act No. (9) of 2002). The university operates across a sprawling 511-acre green campus fostering interdisciplinary education, cutting-edge research, and Buddhist values.
 
-- Automated Academic Session & Semester workflows
-- Dynamic GPA & CGPA calculation algorithms
-- Real-time quiz evaluation and progress tracking
-- Multi-channel document and video tutorial distribution
-- Automated cryptographic and formatted PDF generation (Result Sheets, Transcripts, and Rosters)
+- **Chancellor:** Hon'ble Chief Minister of Uttar Pradesh (**Shri Yogi Adityanath**)
+- **Vice-Chancellor:** **Prof. Rana Pratap Singh**
+- **Dean Academics:** **Prof. Rajeev Varshney**
+- **Official Order:** `GBU.-010/Acad./021/2026-123`
 
 <div align="center">
-  <img src="assets/dashboard-preview.png" alt="Django LMS Dashboard Preview" width="850">
-  <p><em>Real-Time Institutional Dashboard & Analytics</em></p>
+  <img src="assets/dashboard-preview.png" alt="GBU LMS Dashboard Preview" width="850">
+  <p><em>Gautam Buddha University LMS Portal • Powered by Parvlabs</em></p>
 </div>
+
+---
+
+## 📅 Official GBU Academic Calendar (2026-2027)
+
+*In compliance with the approval granted by the competent authority (Office Order GBU.-010/Acad./021/2026-123, Office of Dean Academics, Prof. Rajeev Varshney).*
+
+### 🌧 Monsoon Semester (2026)
+| Event | Scheduled Dates |
+| :--- | :--- |
+| **Fee Submission (Online)** *(2nd Year onwards)* | Fri, 10th July 2026 – Mon, 20th July 2026 |
+| **Reporting & Registration at Schools** *(2nd Year onwards)* | Mon, 27th July 2026 – Fri, 31st July 2026 |
+| **Commencement of Classes** *(2nd Year onwards)* | **Mon, 03rd August 2026** |
+| **Reporting of 1st Year Students** at respective Deptt./School | Wed, 05th August 2026 & Thu, 06th August 2026 |
+| **Induction / Orientation of 1st Year Students** | Fri, 07th August 2026 |
+| **Commencement of Classes** *(1st Year Students)* | **Mon, 10th August 2026** |
+| **Mid Semester Examination** | **Wed, 07th October 2026 – Fri, 16th October 2026** |
+| **Lab / Practical Examination** | Mon, 30th November 2026 – Fri, 04th December 2026 |
+| **Back Paper Examination** | Mon, 07th December 2026 – Sat, 12th December 2026 |
+| **End Semester Examination** | **Mon, 14th December 2026 – Thu, 24th December 2026** |
+| **Evaluation & Answer Book Submission** | Up to Tue, 12th January 2027 |
+| **Winter Vacation** | Fri, 25th December 2026 – Tue, 05th January 2027 |
+| **Declaration of Results** | **Mon, 25th January 2027** |
+
+### ❄️ Winter Semester (2027)
+| Event | Scheduled Dates |
+| :--- | :--- |
+| **Fee Submission (Online)** | Sat, 26th December 2026 – Tue, 05th January 2027 |
+| **Reporting & Registration at respective Deptt./Schools** | Sat, 09th January 2027 |
+| **Commencement of Classes (All Years)** | **Mon, 11th January 2027** |
+| **Mid Semester Examination** | **Mon, 08th March 2027 – Fri, 19th March 2027** |
+| **Lab / Practical Examination** | Mon, 26th April 2027 – Fri, 30th April 2027 |
+| **Back Paper Examination** | Mon, 03rd May 2027 – Sat, 08th May 2027 |
+| **End Semester Examination** | **Mon, 10th May 2027 – Sat, 22nd May 2027** |
+| **Submission of Back Paper Answer Books** | Up to Wed, 19th May 2027 |
+| **Submission of End Term Answer Books** | Up to Mon, 07th June 2027 |
+| **Declaration of Results** | **Sun, 20th June 2027 – Wed, 30th June 2027** |
+| **Summer Vacation** | Tue, 08th June 2027 – Thu, 22nd July 2027 |
+
+> **Annual University Festivals:**
+> - **GBU Cultural Fest:** *Abhivyanjana*
+> - **Annual Sports Meet:** *Shauryautsav*
+
+---
+
+## 🏫 GBU Constituent Schools & Programs
+
+The portal supports curriculum management across all 8 constituent schools of Gautam Buddha University:
+
+1. **School of Information & Communication Technology (SoICT)**
+   - Computer Science & Engineering (B.Tech, M.Tech, Ph.D.)
+   - Artificial Intelligence & Data Science
+   - Electronics & Communication Engineering (ECE)
+2. **School of Engineering (SoE)**
+   - Civil Engineering
+   - Mechanical Engineering
+   - Electrical Engineering
+3. **School of Management (SoM)**
+   - Master of Business Administration (MBA - Finance, HR, Marketing, Business Analytics)
+   - Bachelor of Business Administration (BBA)
+4. **School of Biotechnology (SoBT)**
+   - B.Tech & M.Tech Biotechnology
+   - Bioinformatics & Molecular Biology
+5. **School of Law, Justice and Governance (SoLJG)**
+   - BA LLB (Hons), BBA LLB (Hons), LLM
+6. **School of Buddhist Studies and Civilization (SoBSC)**
+   - Pali, Buddhist Philosophy, Comparative Religion
+7. **School of Humanities and Social Sciences (SoHSS)**
+   - Psychology, Economics, Mass Communication, English, Political Science
+8. **School of Vocational Studies and Applied Sciences (SoVSAS)**
+   - Applied Physics, Applied Chemistry, Applied Mathematics
 
 ---
 
 ## 🚀 Key Features
 
-### 👥 Multi-Role Access Control (RBAC)
-- **Superuser / Admin**: Central institutional management, staff assignment, activity audit logs, and system analytics.
-- **Lecturers / Faculty**: Course allocation, student score submission, question bank authoring, and grade sheet generation.
-- **Students**: Self-service course registration, video lectures, online examinations, real-time result scorecards, and semester tracking.
-- **Department Heads**: Curricular management and semester-specific course offerings.
-- **Parents**: Dedicated read-only portal to view student academic progress and attendance.
+### 👥 Role-Based Access Control (RBAC)
+- **Superuser / University Administrators:** Session governance, staff assignments, institutional auditing, and global analytics.
+- **Deans & Faculty (Lecturers):** Course allocation, assessment authoring, student score entry, and automated result sheet generation.
+- **Students:** Course enrollment and add/drop, multimedia access (PDF lecture notes & video tutorials), timed exams, and dynamic grade cards.
+- **Department Heads:** Program curriculum structuring and course offerings.
+- **Parents:** Dedicated portal for attendance and academic tracking.
 
-### 📚 Course & Curriculum Management
-- Complete program structuring (Degrees, Levels, Semesters, Credit weights).
-- Multimedia learning resources: course documents (PDF, DOCX, XLSX, PPTX) and embedded video tutorials.
-- Dynamic enrollment and add/drop workflows for active semesters.
+### 📊 Academic Grading & Automated GPA/CGPA Engine
+- Granular performance evaluation: Assignments, Midterms, Quizzes, Attendance, and End-Term Exams.
+- Continuous cumulative point calculations ($GPA$ & $CGPA$) conforming to university grade standards ($A^+$ down to $F$).
+- Instant transcript and formatted result sheet generation via **ReportLab** and **xhtml2pdf**.
 
-### 📝 Assessment & Examination Engine
-- Interactive testing engine supporting Multiple Choice (MCQ) and Essay questions.
-- Configurable settings: random question ordering, pass marks, single or multiple attempts, and draft modes.
-- Instant automated scoring with real-time feedback and review.
-
-### 📊 Academic Grading & Automated GPA/CGPA Calculation
-- Standardized performance metrics: Assignment, Midterms, Quizzes, Attendance, and Final Exams.
-- Continuous cumulative calculations ($GPA$ & $CGPA$) based on grade boundary thresholds ($A^+$ through $F$).
-- Printable and downloadable official result scorecards rendered dynamically via **ReportLab**.
-
-### 💳 Payments & Invoicing
-- Invoice management with unique UUID tracking.
-- Integrated payment gateways (Stripe, GoPay, and PayPal checkout stubs).
-
-### 🌐 Internationalization (i18n)
-- Multilingual interface support: **English**, **French**, **Spanish**, and **Russian** via `django-modeltranslation`.
-
----
-
-## 🛠 Architecture & Tech Stack
-
-| Layer | Technology |
-| :--- | :--- |
-| **Backend Framework** | Django 4.0.8 (Python 3.11 compatible) |
-| **Database** | SQLite (Development) / PostgreSQL compatible (Production) |
-| **Frontend & UI** | HTML5, CSS3, JavaScript, Bootstrap 5, FontAwesome 6 |
-| **Admin Interface** | Django Jet Reboot dashboard suite |
-| **API Layer** | Django REST Framework (DRF) |
-| **PDF Generation** | ReportLab 4.0 & xhtml2pdf |
-| **Asset Pipeline** | WhiteNoise 6.2 with gzip / Brotli manifest compression |
-| **Payment Gateway** | Stripe SDK & GoPay SDK |
+### 📝 Assessment Engine
+- Timed examination engine supporting Multiple Choice (MCQ) and Essay question formats.
+- Question randomization, pass marks, attempt limitations, and instant feedback.
 
 ---
 
@@ -88,7 +132,6 @@ The **Advance Student Management & Learning System** is an end-to-end institutio
 ### Prerequisites
 - **Python 3.10+** (Python 3.11 recommended)
 - **Git**
-- **pip** and **virtualenv**
 
 ### 1. Clone the Repository
 ```bash
@@ -99,7 +142,7 @@ cd Advance-Student-Management-System/django-lms-main
 ### 2. Set Up Virtual Environment
 ```bash
 # Windows
-python -m venv .venv
+py -3.11 -m venv .venv
 .venv\Scripts\activate
 
 # Linux / macOS
@@ -113,103 +156,58 @@ pip install -r requirements/base.txt
 ```
 
 ### 4. Configure Environment Variables
-Copy `.env.example` to `.env` in `django-lms-main/`:
-```bash
-cp .env.example .env
-```
-
-Ensure your `.env` contains the required keys:
+Create `.env` inside `django-lms-main/`:
 ```env
 DEBUG=True
-SECRET_KEY=your-secure-secret-key-here
+SECRET_KEY=your-secure-development-secret-key
 EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
-EMAIL_FROM_ADDRESS="Dj LMS <admin@example.com>"
-EMAIL_HOST_USER="admin@example.com"
-EMAIL_HOST_PASSWORD="your-email-password"
+EMAIL_FROM_ADDRESS="GBU LMS <admin@gbu.ac.in>"
+EMAIL_HOST_USER="admin@gbu.ac.in"
+EMAIL_HOST_PASSWORD="your-secure-password"
 ```
 
-### 5. Apply Database Migrations
+### 5. Apply Migrations & Seed GBU Academic Data
 ```bash
 python manage.py migrate
+
+# Seed official GBU 2026-2027 sessions, semesters, schools, and academic calendar news
+python scripts/seed_gbu_data.py
 ```
 
-### 6. Create Initial Academic Session & Superuser
+### 6. Create Administrator Account
 ```bash
-# Create an administrative account
 python manage.py createsuperuser
-
-# (Optional) Initialize active session and semester via Django shell
-python manage.py shell -c "from core.models import Session, Semester; s, _ = Session.objects.get_or_create(session='2026/2027', defaults={'is_current_session': True}); Semester.objects.get_or_create(semester='First', session=s, defaults={'is_current_semester': True});"
 ```
 
-### 7. Collect Static Assets & Run
+### 7. Collect Static Assets & Run Server
 ```bash
 python manage.py collectstatic --noinput
 python manage.py runserver
 ```
 
-Open your browser at **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)** to access the application.
+Open your browser at **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)**.
 
 ---
 
-## 📂 Project Directory Structure
+## 🌟 Credits & Acknowledgments
 
-```plaintext
-Advance-Student-Management-System/
-├── assets/                    # Project banners, mockups, and preview images
-│   ├── banner.png
-│   └── dashboard-preview.png
-├── django-lms-main/           # Django LMS core backend application
-│   ├── accounts/              # User profiles, authentication, RBAC decorators
-│   ├── config/                # Project routing, WSGI/ASGI, i18n settings
-│   ├── core/                  # Sessions, semesters, announcements, activity logs
-│   ├── course/                # Curriculum, lecturer allocations, media uploads
-│   ├── payments/              # Invoices & payment processors (Stripe, GoPay)
-│   ├── quiz/                  # Quiz authoring, sittings, automated marking
-│   ├── requirements/          # Base, local, and production dependency manifests
-│   ├── result/                # Score recording, GPA calculations, PDF generation
-│   ├── search/                # Unified cross-model search engine
-│   ├── static/                # Vendor libraries, stylesheets, and JavaScript
-│   ├── templates/             # Bootstrap 5 responsive UI templates
-│   └── manage.py
-├── .gitignore                 # Root Git exclusion rules
-├── LICENSE                    # Project License
-└── README.md                  # Project documentation
-```
+Full institutional and software engineering credits belong to:
 
----
+<div align="center">
 
-## 🔒 Security & Best Practices
+### 🏆 Engineered & Maintained by **[parvlabs](https://github.com/parvlabs)**
+**GitHub Organization / Profile:** [https://github.com/parvlabs](https://github.com/parvlabs)  
+**Project Repository:** [https://github.com/parvlabs/Advance-Student-Management-System](https://github.com/parvlabs/Advance-Student-Management-System)
 
-- **Never commit `.env` or production credentials** to public version control.
-- Ensure `DEBUG=False` and set explicit `ALLOWED_HOSTS` in production deployments.
-- Enforce HTTPS and secure cookie handling:
-  - `SESSION_COOKIE_SECURE = True`
-  - `CSRF_COOKIE_SECURE = True`
-  - `SECURE_SSL_REDIRECT = True`
-- Validate and sanitize file uploads before writing to permanent storage.
+*Special thanks to Gautam Buddha University (GBU), Greater Noida, and the Office of the Dean Academics for institutional academic calendar standards and curriculum structures.*
 
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+</div>
 
 ---
 
 ## 📜 License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
-
-<div align="center">
-  <sub>Developed by <b>Parveer Rao</b> & open-source contributors.</sub>
-</div>
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more details.

@@ -43,16 +43,43 @@
 
 {% include 'snippets/messages.html' %}
 
-<div>
-    <div class="title-1">{% trans 'News' %} &amp; {% trans 'Events' %}</div>
+<!-- GBU Hero Banner -->
+<div class="card border-0 shadow-sm mb-4" style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white; border-radius: 12px;">
+    <div class="card-body p-4">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <span class="badge bg-warning text-dark mb-2 font-monospace px-2 py-1">OFFICIAL ACADEMIC PORTAL</span>
+                <h2 class="fw-bold mb-1">Gautam Buddha University (GBU)</h2>
+                <p class="mb-2 opacity-90" style="font-size: 0.95rem;">
+                    Greater Noida, Gautam Budh Nagar (U.P.) • Established under U.P. Act (9) of 2002
+                </p>
+                <div class="d-flex flex-wrap gap-2 align-items-center mt-3">
+                    <span class="badge bg-white text-dark py-1 px-2"><i class="fas fa-calendar-alt text-primary me-1"></i> Academic Session: 2026-2027</span>
+                    <span class="badge bg-white text-dark py-1 px-2"><i class="fas fa-file-signature text-success me-1"></i> Office Order: GBU.-010/Acad./021/2026-123</span>
+                    <span class="badge bg-dark text-white py-1 px-2"><i class="fas fa-code text-warning me-1"></i> Credits: parvlabs</span>
+                </div>
+            </div>
+            <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                <a href="{% url 'programs' %}" class="btn btn-light text-primary fw-bold me-2 mb-2">
+                    <i class="fas fa-graduation-cap me-1"></i> Explore Schools
+                </a>
+                <a href="https://github.com/parvlabs/Advance-Student-Management-System" target="_blank" class="btn btn-outline-light mb-2">
+                    <i class="fab fa-github me-1"></i> parvlabs
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<div class="col-md-2 ms-auto d-flex">
-    <div class="me-3">
-        <span class="color-indicator bg-primary"></span> {% trans 'News' %}
-    </div>
-    <div>
-        <span class="color-indicator bg-purple"></span> {% trans 'Events' %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div class="title-1 mb-0">{% trans 'Official Announcements, News & Events' %}</div>
+    <div class="d-flex align-items-center">
+        <div class="me-3">
+            <span class="color-indicator bg-primary"></span> {% trans 'News' %}
+        </div>
+        <div>
+            <span class="color-indicator bg-purple"></span> {% trans 'Events' %}
+        </div>
     </div>
 </div>
 

@@ -7,6 +7,14 @@
 				<i class="fas fa-bars"></i>
 			</div>
 
+			<div class="d-none d-md-flex align-items-center ms-2 me-auto">
+				<a href="/" class="text-decoration-none d-flex align-items-center">
+					<span class="fw-bold text-dark me-2" style="font-size: 0.95rem; letter-spacing: 0.5px;">GAUTAM BUDDHA UNIVERSITY</span>
+					<span class="badge bg-primary text-white" style="font-size: 0.70rem;">LMS</span>
+				</a>
+				<span class="badge bg-dark text-light border ms-2" style="font-size: 0.65rem;">by parvlabs</span>
+			</div>
+
 			<form class="form-header" action="{% url 'query' %}" method="GET">
 				<input id="primary-search" class="form-control rounded-end-0" type="text" name="q" value="{{ request.GET.q }}"
 					placeholder="{% trans 'Search All... #course, #program, #Quiz, #News, #Events' %}" required />

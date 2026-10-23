@@ -6,7 +6,9 @@ from django.views import defaults as default_views
 from django.conf.urls.i18n import i18n_patterns
 from django.views.i18n import JavaScriptCatalog
 
-admin.site.site_header = "Dj-LMS Admin"
+admin.site.site_header = "Gautam Buddha University LMS (GBU)"
+admin.site.site_title = "GBU LMS Admin Portal"
+admin.site.index_title = "Gautam Buddha University Academic Administration • Powered by Parvlabs"
 
 urlpatterns = [
     path("admin/", admin.site.urls),

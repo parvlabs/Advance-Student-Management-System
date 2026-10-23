@@ -16,8 +16,14 @@
 					<i class="fas fa-times"></i>
 				</div>
 			</div>
-			<a href="/">
-				<img src="{% static 'img/dj-lms.png' %}" width="110px" alt="Logo Django LMS">
+			<a href="/" class="text-decoration-none">
+				<img src="{% static 'img/dj-lms.png' %}" width="100px" alt="Gautam Buddha University Logo">
+				<div class="mt-2 text-dark font-weight-bold" style="font-weight: 700; font-size: 0.90rem; letter-spacing: 0.5px; color: #1e3a8a;">
+					GAUTAM BUDDHA UNIVERSITY
+				</div>
+				<div class="text-muted small" style="font-size: 0.72rem;">
+					Greater Noida, Uttar Pradesh
+				</div>
 			</a>
 			<p class="text-orange">
 				<mark>
@@ -143,14 +149,20 @@
 				</select>
 			</form>
 
-			<p class="small m-0">
-				{% trans 'Read our' %} <a href="#"> {% trans 'Privacy' %} </a> {% trans 'and' %} <a href="#"> {% trans 'Terms of use.' %}' </a>
-				<br />Django LMS &copy; <script>document.write(new Date().getFullYear());</script>
-				<br />
-			</p>
-			<a href="https://github.com/adilmohak/django-lms" class="btn btn-sm btn-dark mx-auto" target="_blank">
-				{% trans '⭐️ Star This Project' %}
-			</a>
+			<div class="mt-3 p-2 rounded bg-light border text-center">
+				<p class="small text-muted mb-1" style="font-size: 0.72rem;">
+					<strong>Gautam Buddha University LMS</strong><br>
+					Academic Session 2026-2027
+				</p>
+				<p class="small text-muted mb-0" style="font-size: 0.72rem;">
+					Engineered by <a href="https://github.com/parvlabs" target="_blank" class="fw-bold text-primary text-decoration-none">parvlabs</a>
+				</p>
+			</div>
+			<div class="mt-2 text-center">
+				<a href="https://github.com/parvlabs/Advance-Student-Management-System" class="btn btn-sm btn-dark mx-auto" target="_blank">
+					<i class="fab fa-github me-1"></i> {% trans 'parvlabs Repository' %}
+				</a>
+			</div>
 		</div>
 	</footer>
 </div>

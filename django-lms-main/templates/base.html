@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>{% block title %}DjangoSMS{% endblock title %}</title>
+    <title>{% block title %}GBU LMS | Gautam Buddha University{% endblock title %}</title>
 
     <link rel="shortcut icon" href="{% static 'img/favicon.png' %}" type="image/x-icon">
 
@@ -39,6 +39,15 @@
             {% block content %}{% endblock content %}
         </div>
 
+        <footer class="py-3 px-4 mt-auto border-top bg-white d-flex flex-wrap justify-content-between align-items-center">
+            <div class="col-md-6 d-flex align-items-center">
+                <span class="text-muted small">© 2026 <strong>Gautam Buddha University</strong>, Greater Noida (U.P.). All rights reserved.</span>
+            </div>
+            <div class="col-md-6 text-md-end text-center mt-2 mt-md-0">
+                <span class="badge bg-light text-dark border me-2">Office Order: GBU.-010/Acad./021/2026-123</span>
+                <span class="text-muted small">Engineering Credits: <a href="https://github.com/parvlabs" target="_blank" class="fw-bold text-primary text-decoration-none">parvlabs</a></span>
+            </div>
+        </footer>
     </div>
     {% endblock %}
     <script src="{% url 'javascript-catalog' %}"></script>
